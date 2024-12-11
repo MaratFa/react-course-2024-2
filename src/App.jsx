@@ -5,8 +5,8 @@ import Food from "./Food";
 function App() {
   return (
     <>
-      <Food />
       <Header />
+      <Food />
       <Footer />
     </>
   );
