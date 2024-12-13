@@ -3,9 +3,9 @@ import cat from "../src/assets/cat.jpg";
 const Card = () => {
   return (
     <div className="card">
-      <img src={cat} alt="cat picture"></img>
-      <h2>Cat</h2>
-      <p>Nice cat</p>
+      <img className="card-image" src={cat} alt="cat picture"></img>
+      <h2 className="card-title">Cat</h2>
+      <p className="card-text">Nice cat</p>
     </div>
   );
 };
