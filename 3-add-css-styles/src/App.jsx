@@ -1,15 +1,5 @@
-import Card from "./Card";
-
 function App() {
-  return (
-    <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </>
-  );
+  return <></>;
 }
 
 export default App;
-
