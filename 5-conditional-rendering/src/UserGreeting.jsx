@@ -13,3 +13,4 @@ UserGreeting.propTypes = {
   username: PropTypes.string,
 };
 export default UserGreeting;
+
