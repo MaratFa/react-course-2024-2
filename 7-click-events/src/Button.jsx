@@ -1,8 +1,8 @@
 const Button = () => {
   
-  const handleClick = () => conso
+  const handleClick = () => console.log("Hello");
 
-  return <button onClick={console.log('Hello')}>Click me </button>;
+  return <button onClick={handleClick}>Click me </button>;
 };
 
 export default Button;
