@@ -24,7 +24,7 @@ const MyComponent = () => {
       <p>Age: {age}</p>
       <button onClick={incrementAge}>Increment Age</button>
       <p>Is employed: {isEmployed ? "Yes" : "No"}</p>
-      <button onClick={toggleEmployedStatus}>Employment</button>
+      <button onClick={toggleEmployedStatus}>Toggle Status</button>
     </div>
   );
 };
