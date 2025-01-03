@@ -1,11 +1,11 @@
-import MyComponent from "./MyComponent";
+import ColorPicker from "./ColorPicker";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <MyComponent />
-    </>
+    <div>
+      <ColorPicker />
+    </div>
   );
-}
+};
 
 export default App;
