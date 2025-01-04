@@ -1,9 +1,9 @@
-import MyComponent from "./MyComponent";
+import Counter from "./MyComponent";
 
 const App = () => {
   return (
     <div>
-      <MyComponent />
+      <Counter />
     </div>
   );
 };
