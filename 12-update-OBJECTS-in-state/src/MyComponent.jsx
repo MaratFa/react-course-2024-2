@@ -1,32 +1,11 @@
 import { useState } from "react";
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
+const MyComponent = () => {
 
-  const increment = () => {
-    setCount((c) => c + 1);
-    setCount((c) => c + 1);
-    setCount((c) => c + 1);
-  };
-
-  const decrement = () => {
-    setCount((c) => c - 1);
-    setCount((c) => c - 1);
-    setCount((c) => c - 1);
-  };
-
-  const reset = () => {
-    setCount(0);
-  };
-
+  const [car, setCar] = useState({year: 2024, make: 'Ford', model: "Mustang"});
   return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={decrement}>Decrement</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={increment}>Increment</button>
-    </div>
-  );
-};
+    <></>
+  )
+}
 
-export default Counter;
+export default MyComponent
