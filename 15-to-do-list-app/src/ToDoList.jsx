@@ -15,14 +15,23 @@ const ToDoList = () => {
   function addTask() {
 
     if(newTask.trim() !== ''){
-      setT
+      setTasks(t => [...t, newTask]);
+      setNewTask("");
     }
-    setTasks([...tasks, newTask]);
   }
 
-  function deleteTask(index) {}
+  function deleteTask(index) {
+    const updateTasks = tasks.filter((_, i) => i !== index);
+    setTasks(updateTasks);
+  }
 
-  function moveTaskUp(index) {}
+  function moveTaskUp(index) {
+
+    if(index > 0) {
+      const updatedTasks = [...tasks];
+      [updatedTasks[index], updatedTasks[index - 1]]
+    }
+  }
 
   function moveTaskDown(index) {}
 
