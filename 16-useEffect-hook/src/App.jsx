@@ -1,9 +1,9 @@
-import ToDoList from "./ToDoList";
+import MyComponent from "./MyComponent";
 
 const App = () => {
   return (
     <div>
-      <ToDoList />
+      <MyComponent />
     </div>
   );
 };
