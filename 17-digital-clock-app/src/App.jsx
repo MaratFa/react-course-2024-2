@@ -4,6 +4,9 @@ const App = () => {
   return (
     <div>
       <DigitalClock />
+      <DigitalClock />
+      <DigitalClock />
+      <DigitalClock />
     </div>
   );
 };
